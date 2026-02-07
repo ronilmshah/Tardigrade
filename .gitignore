@@ -1,2 +1,4 @@
 **/TMP/**
 !**/TMP/.gitkeep
+
+.DS_Store
