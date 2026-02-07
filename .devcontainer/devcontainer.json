@@ -1,0 +1,24 @@
+// config vs code
+{
+    "name": "Tardigrade VSC",
+    "runArgs": [
+    "--name", "Tardigrade-Docker"
+    ],
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    // Installs VS Code extensions automatically inside the container
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-python.python",
+                "ms-vscode.cmake-tools",
+                "twxs.cmake"
+            ]
+        }
+    },
+    // Forward the file system so you can edit normally
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace"
+}

@@ -2,3 +2,9 @@
 !**/TMP/.gitkeep
 
 .DS_Store
+
+.devenvironment/
+!.devenvironment/Dockerfile
+!.devenvironment/docker-compose.yml
+!.devenvironment/devcontainer.json
+!.devenvironment/requirements.txt
