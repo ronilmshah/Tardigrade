@@ -8,3 +8,48 @@
 !.devenvironment/docker-compose.yml
 !.devenvironment/devcontainer.json
 !.devenvironment/requirements.txt
+
+# CMake build directories
+/build/
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# Dependency files
+*.d
+
+# Debug symbols
+*.pdb
+*.dSYM/
+
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
